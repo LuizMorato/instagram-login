@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+    border-radius: 3px;
+    flex: 1;
+}
+
+.imagens {
+    position: relative;
+}
+
+.img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: ease-in-out 2s;
+}
+
+.img-celular {
+    width: 450px;
+}
+
+input {
+    height: 36px;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+input::placeholder {
+    padding: 5px;
+}
+
+button {
+    background-color: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #0095f6;
+    font-weight: bold;
+    border: 1px solid #0095f6;
+    transition: ease-in-out 0.5s;
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
