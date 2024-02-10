@@ -14,7 +14,7 @@ The Instagram login page is a static web page that closely resembles the origina
 </a>
 
 # Preview
-Click the [link](https://luizmorato.github.io/instagram-login/) to view the website.
+Click the [link](https://instagram-login-flame.vercel.app/) to view the website.
 
 # Usage
 Feel free to use this project as a reference or starting point for your own login page designs. You can modify the HTML and CSS files to customize the page according to your needs.
